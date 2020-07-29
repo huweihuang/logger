@@ -1,0 +1,4 @@
+{"level":"error","time":"2020-07-29T19:49:33.712+0800","msg":"error level test"}
+{"level":"warn","time":"2020-07-29T19:49:33.712+0800","msg":"warn level test"}
+{"level":"error","time":"2020-07-29T19:49:33.712+0800","msg":"error level test: 111"}
+{"level":"warn","time":"2020-07-29T19:49:33.712+0800","msg":"warn level test: 111"}

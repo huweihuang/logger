@@ -1,0 +1,6 @@
+{"level":"info","time":"2020-07-29T19:49:33.711+0800","msg":"info level test"}
+{"level":"debug","time":"2020-07-29T19:49:33.712+0800","msg":"debug level test"}
+{"level":"info","time":"2020-07-29T19:49:33.712+0800","msg":"info level test: 111"}
+{"level":"debug","time":"2020-07-29T19:49:33.712+0800","msg":"debug level test: 111"}
+{"level":"info","time":"2020-07-29T19:49:33.713+0800","msg":"this is a log","Trace":"12345677"}
+{"level":"info","time":"2020-07-29T19:49:33.713+0800","msg":"this is a log","error":"this is a new error"}
