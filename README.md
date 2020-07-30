@@ -1,4 +1,5 @@
 # golang日志工具集
 
-- zap
-- glog
+- [logrus](logrus)
+- [zap](zap)
+- [glog](glog)
