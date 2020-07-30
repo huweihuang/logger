@@ -9,6 +9,7 @@ require (
 	github.com/jonboulle/clockwork v0.2.0 // indirect
 	github.com/lestrrat-go/file-rotatelogs v2.3.0+incompatible
 	github.com/lestrrat-go/strftime v1.0.3 // indirect
+	github.com/sirupsen/logrus v1.6.0
 	github.com/tebeka/strftime v0.1.5 // indirect
 	go.uber.org/zap v1.15.0
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0

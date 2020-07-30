@@ -1,0 +1,52 @@
+time="2020-07-30T09:56:08+08:00" level=debug msg="test debugf, debugf" func=github.com/huweihuang/logger/example.TestLogrus file="/Users/weihuanghu/go/src/github.com/huweihuang/logger/example/logrus_test.go:16"
+time="2020-07-30T09:56:08+08:00" level=info msg="test infof, infof" func=github.com/huweihuang/logger/example.TestLogrus file="/Users/weihuanghu/go/src/github.com/huweihuang/logger/example/logrus_test.go:17"
+time="2020-07-30T09:56:08+08:00" level=warning msg="test warnf, warnf" func=github.com/huweihuang/logger/example.TestLogrus file="/Users/weihuanghu/go/src/github.com/huweihuang/logger/example/logrus_test.go:18"
+time="2020-07-30T09:56:08+08:00" level=error msg="test errorf, errorf" func=github.com/huweihuang/logger/example.TestLogrus file="/Users/weihuanghu/go/src/github.com/huweihuang/logger/example/logrus_test.go:19"
+time="2020-07-30T09:56:08+08:00" level=debug msg="test field, debug" func=github.com/huweihuang/logger/example.TestLogrus file="/Users/weihuanghu/go/src/github.com/huweihuang/logger/example/logrus_test.go:22" field1=debug
+time="2020-07-30T09:56:08+08:00" level=info msg="test field, info" func=github.com/huweihuang/logger/example.TestLogrus file="/Users/weihuanghu/go/src/github.com/huweihuang/logger/example/logrus_test.go:23" field1=info
+time="2020-07-30T09:56:08+08:00" level=warning msg="test field, warn" func=github.com/huweihuang/logger/example.TestLogrus file="/Users/weihuanghu/go/src/github.com/huweihuang/logger/example/logrus_test.go:24" field1=warn
+time="2020-07-30T09:56:08+08:00" level=error msg="test field, error" func=github.com/huweihuang/logger/example.TestLogrus file="/Users/weihuanghu/go/src/github.com/huweihuang/logger/example/logrus_test.go:25" field1=error
+time="2020-07-30T09:56:08+08:00" level=debug msg="test fields, debug" func=github.com/huweihuang/logger/example.TestLogrus file="/Users/weihuanghu/go/src/github.com/huweihuang/logger/example/logrus_test.go:31" fields1=fields1_value fields2=fields2_value
+time="2020-07-30T09:56:08+08:00" level=info msg="test fields, info" func=github.com/huweihuang/logger/example.TestLogrus file="/Users/weihuanghu/go/src/github.com/huweihuang/logger/example/logrus_test.go:36" fields1=fields1_value fields2=fields2_value
+time="2020-07-30T09:56:08+08:00" level=warning msg="test fields, warn" func=github.com/huweihuang/logger/example.TestLogrus file="/Users/weihuanghu/go/src/github.com/huweihuang/logger/example/logrus_test.go:41" fields1=fields1_value fields2=fields2_value
+time="2020-07-30T09:56:08+08:00" level=error msg="test fields, error" func=github.com/huweihuang/logger/example.TestLogrus file="/Users/weihuanghu/go/src/github.com/huweihuang/logger/example/logrus_test.go:46" fields1=fields1_value fields2=fields2_value
+
+time="2020-07-30T10:04:12+08:00" level=debug msg="test debugf, debugf"
+time="2020-07-30T10:04:12+08:00" level=info msg="test infof, infof"
+time="2020-07-30T10:04:12+08:00" level=warning msg="test warnf, warnf"
+time="2020-07-30T10:04:12+08:00" level=error msg="test errorf, errorf"
+time="2020-07-30T10:04:12+08:00" level=debug msg="test field, debug" field1=debug
+time="2020-07-30T10:04:12+08:00" level=info msg="test field, info" field1=info
+time="2020-07-30T10:04:12+08:00" level=warning msg="test field, warn" field1=warn
+time="2020-07-30T10:04:12+08:00" level=error msg="test field, error" field1=error
+time="2020-07-30T10:04:12+08:00" level=debug msg="test fields, debug" fields1=fields1_value fields2=fields2_value
+time="2020-07-30T10:04:12+08:00" level=info msg="test fields, info" fields1=fields1_value fields2=fields2_value
+time="2020-07-30T10:04:12+08:00" level=warning msg="test fields, warn" fields1=fields1_value fields2=fields2_value
+time="2020-07-30T10:04:12+08:00" level=error msg="test fields, error" fields1=fields1_value fields2=fields2_value
+
+{"level":"debug","msg":"test debugf, debugf","time":"2020-07-30T10:05:06+08:00"}
+{"level":"info","msg":"test infof, infof","time":"2020-07-30T10:05:06+08:00"}
+{"level":"warning","msg":"test warnf, warnf","time":"2020-07-30T10:05:06+08:00"}
+{"level":"error","msg":"test errorf, errorf","time":"2020-07-30T10:05:06+08:00"}
+{"field1":"debug","level":"debug","msg":"test field, debug","time":"2020-07-30T10:05:06+08:00"}
+{"field1":"info","level":"info","msg":"test field, info","time":"2020-07-30T10:05:06+08:00"}
+{"field1":"warn","level":"warning","msg":"test field, warn","time":"2020-07-30T10:05:06+08:00"}
+{"field1":"error","level":"error","msg":"test field, error","time":"2020-07-30T10:05:06+08:00"}
+{"fields1":"fields1_value","fields2":"fields2_value","level":"debug","msg":"test fields, debug","time":"2020-07-30T10:05:06+08:00"}
+{"fields1":"fields1_value","fields2":"fields2_value","level":"info","msg":"test fields, info","time":"2020-07-30T10:05:06+08:00"}
+{"fields1":"fields1_value","fields2":"fields2_value","level":"warning","msg":"test fields, warn","time":"2020-07-30T10:05:06+08:00"}
+{"fields1":"fields1_value","fields2":"fields2_value","level":"error","msg":"test fields, error","time":"2020-07-30T10:05:06+08:00"}
+
+[37mDEBU[0m[2020-07-30T15:44:27+08:00] test debugf, debugf                          
+[36mINFO[0m[2020-07-30T15:44:27+08:00] test infof, infof                            
+[33mWARN[0m[2020-07-30T15:44:27+08:00] test warnf, warnf                            
+[31mERRO[0m[2020-07-30T15:44:27+08:00] test errorf, errorf                          
+[37mDEBU[0m[2020-07-30T15:44:27+08:00] test field, debug                             [37mfield1[0m=debug
+[36mINFO[0m[2020-07-30T15:44:27+08:00] test field, info                              [36mfield1[0m=info
+[33mWARN[0m[2020-07-30T15:44:27+08:00] test field, warn                              [33mfield1[0m=warn
+[31mERRO[0m[2020-07-30T15:44:27+08:00] test field, error                             [31mfield1[0m=error
+[37mDEBU[0m[2020-07-30T15:44:27+08:00] test fields, debug                            [37mfields1[0m=fields1_value [37mfields2[0m=fields2_value
+[36mINFO[0m[2020-07-30T15:44:27+08:00] test fields, info                             [36mfields1[0m=fields1_value [36mfields2[0m=fields2_value
+[33mWARN[0m[2020-07-30T15:44:27+08:00] test fields, warn                             [33mfields1[0m=fields1_value [33mfields2[0m=fields2_value
+[31mERRO[0m[2020-07-30T15:44:27+08:00] test fields, error                            [31mfields1[0m=fields1_value [31mfields2[0m=fields2_value
+
